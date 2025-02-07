@@ -1,0 +1,10 @@
+num=0
+numg1=int(input("Enter the number of person:"))
+numg2=int(input("Enter the height of the wall:"))
+for i in range(numg1):
+    numv=int(input("Enter height of the person:"))
+    if numv<=numg2:
+        num+=1
+    else:
+        num+=2
+print(num)
